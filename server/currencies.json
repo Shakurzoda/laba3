@@ -1,0 +1,34 @@
+{
+    "currency": [
+        {
+            "id": 1,
+            "currency": "dollar",
+            "code": "AUD"
+        },
+                {
+            "id": 2,
+            "currency": "lira",
+            "code": "TRY"
+        },
+         {
+            "id": 3,
+            "currency": "dollar",
+            "code": "USA"
+        },
+        {
+            "id": 4,
+            "currency": "dollar",
+            "code": "SGD"
+        },
+        {
+            "id": 5,
+            "currency": "renminbi",
+            "code": "CNY"
+        },
+        {
+            "id": 6,
+            "currency": "rouble",
+            "code": "RUB"
+        }
+    ]
+}
