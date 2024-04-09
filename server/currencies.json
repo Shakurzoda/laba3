@@ -1,11 +1,11 @@
 {
-    "currency": [
+    "currencies": [
         {
             "id": 1,
             "currency": "dollar",
             "code": "AUD"
         },
-                {
+        {
             "id": 2,
             "currency": "lira",
             "code": "TRY"
@@ -13,7 +13,7 @@
          {
             "id": 3,
             "currency": "dollar",
-            "code": "USA"
+            "code": "USD"
         },
         {
             "id": 4,

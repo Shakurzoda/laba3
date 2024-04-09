@@ -26,8 +26,8 @@ cron.schedule(`${timerData.minute} ${timerData.hour} * * *`, () => {
 app.use("/api", router);
 
 /** Указать даты для синхронизации */ 
-const startDate = '15.01.2024';
-const endDate = '17.01.2024';
+const startDate = '08.04.2024';
+const endDate = '08.04.2024';
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
