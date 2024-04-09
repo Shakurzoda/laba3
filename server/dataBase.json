@@ -1,3 +1,190 @@
 {
-  "dataBase": []
+  "dataBase": [
+    {
+      "date": "08.04.2024",
+      "currency": "dollar",
+      "code": "AUD",
+      "rate": "15.428"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "real",
+      "code": "BRL",
+      "rate": "4.625"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "lev",
+      "code": "BGN",
+      "rate": "12.964"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "dollar",
+      "code": "CAD",
+      "rate": "17.228"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "renminbi",
+      "code": "CNY",
+      "rate": "3.239"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "krone",
+      "code": "DKK",
+      "rate": "3.399"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "euro",
+      "code": "EUR",
+      "rate": "25.355"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "dollar",
+      "code": "HKD",
+      "rate": "2.991"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "forint",
+      "code": "HUF",
+      "rate": "6.488"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "krona",
+      "code": "ISK",
+      "rate": "16.870"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "SDR",
+      "code": "XDR",
+      "rate": "31.057"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "rupee",
+      "code": "INR",
+      "rate": "28.117"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "rupiah",
+      "code": "IDR",
+      "rate": "1.478"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "new shekel",
+      "code": "ILS",
+      "rate": "6.336"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "yen",
+      "code": "JPY",
+      "rate": "15.418"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "ringgit",
+      "code": "MYR",
+      "rate": "4.930"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "peso",
+      "code": "MXN",
+      "rate": "1.423"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "dollar",
+      "code": "NZD",
+      "rate": "14.098"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "krone",
+      "code": "NOK",
+      "rate": "2.188"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "peso",
+      "code": "PHP",
+      "rate": "41.419"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "zloty",
+      "code": "PLN",
+      "rate": "5.929"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "leu",
+      "code": "RON",
+      "rate": "5.103"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "dollar",
+      "code": "SGD",
+      "rate": "17.356"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "rand",
+      "code": "ZAR",
+      "rate": "1.258"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "won",
+      "code": "KRW",
+      "rate": "1.726"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "krona",
+      "code": "SEK",
+      "rate": "2.211"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "franc",
+      "code": "CHF",
+      "rate": "25.849"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "baht",
+      "code": "THB",
+      "rate": "63.810"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "lira",
+      "code": "TRY",
+      "rate": "72.748"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "pound",
+      "code": "GBP",
+      "rate": "29.550"
+    },
+    {
+      "date": "08.04.2024",
+      "currency": "dollar",
+      "code": "USD",
+      "rate": "23.423"
+    }
+  ]
 }
