@@ -12,15 +12,15 @@ const router = require("./routes/index");
 const performSync = async () => {
   try {
     const response = await axios.get('https://www.cnb.cz/en/financial_markets/foreign_exchange_market/exchange_rate_fixing/daily.txt?date=27.07.2019');
-    const data = response.data;
-    console.log('Sync completed at 22:27');
-    console.log('Data = ', data);
+    // const data = response.data;
+    console.log('Синхронизация завершена');
   } catch (error) {
     console.error('An error occurred while fetching data:', error);
   }
 };
-
-cron.schedule('41 22 * * *', () => {
+// конфигурация ежедневного таймера
+let timerData = JSON.parse(fs.readFileSync('dailyTimerConfig.json'));
+cron.schedule(`${timerData.minute} ${timerData.hour} * * *`, () => {
   performSync();
 });
 
@@ -74,8 +74,10 @@ const getCurrencyData = async (textData) => {
         // Читаем текущие данные из файла
         let data = JSON.parse(fs.readFileSync(dbFile));
         console.log('data -------', data)
+        const updatedData = {dataBase:[...data.dataBase.filter((element) => element.date !== newData.date)]};
         // Добавляем новые данные
-        data.dataBase.push(newData);
+        console.log('updatedData', updatedData);
+        updatedData.dataBase.push(newData);
         // Записываем обновленные данные обратно в JSON-файл
         fs.writeFileSync(dbFile, JSON.stringify(data, null, 2));
       }
@@ -99,5 +101,5 @@ app.use("/api", router);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
-  fillDb('07.04.2024')
+  fillDb('08.04.2024')
 });
