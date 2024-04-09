@@ -1,190 +1,376 @@
 {
   "dataBase": [
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "dollar",
       "code": "AUD",
-      "rate": "15.428"
+      "rate": "15.278"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "real",
       "code": "BRL",
-      "rate": "4.625"
+      "rate": "4.609"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "lev",
       "code": "BGN",
-      "rate": "12.964"
+      "rate": "12.621"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "dollar",
       "code": "CAD",
-      "rate": "17.228"
+      "rate": "16.938"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "renminbi",
       "code": "CNY",
-      "rate": "3.239"
+      "rate": "3.154"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "krone",
       "code": "DKK",
-      "rate": "3.399"
+      "rate": "3.311"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "euro",
       "code": "EUR",
-      "rate": "25.355"
+      "rate": "24.685"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "dollar",
       "code": "HKD",
-      "rate": "2.991"
+      "rate": "2.883"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "forint",
       "code": "HUF",
-      "rate": "6.488"
+      "rate": "6.460"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "krona",
       "code": "ISK",
-      "rate": "16.870"
+      "rate": "16.380"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "SDR",
       "code": "XDR",
-      "rate": "31.057"
+      "rate": "30.222"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "rupee",
       "code": "INR",
-      "rate": "28.117"
+      "rate": "27.036"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "rupiah",
       "code": "IDR",
-      "rate": "1.478"
+      "rate": "1.456"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "new shekel",
       "code": "ILS",
-      "rate": "6.336"
+      "rate": "6.219"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "yen",
       "code": "JPY",
-      "rate": "15.418"
+      "rate": "15.862"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "ringgit",
       "code": "MYR",
-      "rate": "4.930"
+      "rate": "4.894"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "peso",
       "code": "MXN",
-      "rate": "1.423"
+      "rate": "1.322"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "dollar",
       "code": "NZD",
-      "rate": "14.098"
+      "rate": "14.125"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "krone",
       "code": "NOK",
-      "rate": "2.188"
+      "rate": "2.189"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "peso",
       "code": "PHP",
-      "rate": "41.419"
+      "rate": "40.471"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "zloty",
       "code": "PLN",
-      "rate": "5.929"
+      "rate": "5.651"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "leu",
       "code": "RON",
-      "rate": "5.103"
+      "rate": "4.966"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "dollar",
       "code": "SGD",
-      "rate": "17.356"
+      "rate": "16.986"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "rand",
       "code": "ZAR",
-      "rate": "1.258"
+      "rate": "1.214"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "won",
       "code": "KRW",
-      "rate": "1.726"
+      "rate": "1.715"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "krona",
       "code": "SEK",
-      "rate": "2.211"
+      "rate": "2.213"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "franc",
       "code": "CHF",
-      "rate": "25.849"
+      "rate": "26.524"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "baht",
       "code": "THB",
-      "rate": "63.810"
+      "rate": "65.711"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "lira",
       "code": "TRY",
-      "rate": "72.748"
+      "rate": "75.776"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "pound",
       "code": "GBP",
-      "rate": "29.550"
+      "rate": "28.483"
     },
     {
-      "date": "08.04.2024",
+      "date": "02.01.2024",
       "currency": "dollar",
       "code": "USD",
-      "rate": "23.423"
+      "rate": "22.526"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "dollar",
+      "code": "AUD",
+      "rate": "15.201"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "real",
+      "code": "BRL",
+      "rate": "4.584"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "lev",
+      "code": "BGN",
+      "rate": "12.616"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "dollar",
+      "code": "CAD",
+      "rate": "16.932"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "renminbi",
+      "code": "CNY",
+      "rate": "3.162"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "krone",
+      "code": "DKK",
+      "rate": "3.309"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "euro",
+      "code": "EUR",
+      "rate": "24.675"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "dollar",
+      "code": "HKD",
+      "rate": "2.894"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "forint",
+      "code": "HUF",
+      "rate": "6.480"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "krona",
+      "code": "ISK",
+      "rate": "16.374"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "SDR",
+      "code": "XDR",
+      "rate": "30.267"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "rupee",
+      "code": "INR",
+      "rate": "27.127"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "rupiah",
+      "code": "IDR",
+      "rate": "1.460"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "new shekel",
+      "code": "ILS",
+      "rate": "6.196"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "yen",
+      "code": "JPY",
+      "rate": "15.809"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "ringgit",
+      "code": "MYR",
+      "rate": "4.880"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "peso",
+      "code": "MXN",
+      "rate": "1.322"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "dollar",
+      "code": "NZD",
+      "rate": "14.090"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "krone",
+      "code": "NOK",
+      "rate": "2.180"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "peso",
+      "code": "PHP",
+      "rate": "40.655"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "zloty",
+      "code": "PLN",
+      "rate": "5.654"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "leu",
+      "code": "RON",
+      "rate": "4.962"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "dollar",
+      "code": "SGD",
+      "rate": "17.016"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "rand",
+      "code": "ZAR",
+      "rate": "1.203"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "won",
+      "code": "KRW",
+      "rate": "1.723"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "krona",
+      "code": "SEK",
+      "rate": "2.205"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "franc",
+      "code": "CHF",
+      "rate": "26.473"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "baht",
+      "code": "THB",
+      "rate": "65.624"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "lira",
+      "code": "TRY",
+      "rate": "75.891"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "pound",
+      "code": "GBP",
+      "rate": "28.539"
+    },
+    {
+      "date": "03.01.2024",
+      "currency": "dollar",
+      "code": "USD",
+      "rate": "22.600"
     }
   ]
 }
