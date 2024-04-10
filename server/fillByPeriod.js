@@ -53,7 +53,6 @@ async function setCurrencyData(textData, initialDate) {
             }
         }
     }
-    console.log('Запись значений за выбранный период завершена');
 }
 
 /** заполнить БД выбранной датой */
@@ -92,8 +91,10 @@ function fillByPeriod(startDate, endDate) {
     for (const date of dateRange) {
         fillDb(date);
     }
+    console.log('Запись значений за выбранной период завершена. Проверьте БД.');
 }
 
 module.exports = {
+    getDateRange,
     fillByPeriod
 };

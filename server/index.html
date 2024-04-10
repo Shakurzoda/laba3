@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>API Request Demo</title>
+    </head>
+    <body>
+        <div id="response"></div>
+
+        <script>
+            const apiUrl =
+                'http://localhost:3000/api/report?startDate=21.01.2024&endDate=22.04.2024&currencyCode=RUB&currencyCode=AUD'; // Замените на URL вашего сервера Express
+            const responseElement = document.getElementById('response');
+
+            async function fetchData() {
+                try {
+                    const response = await fetch(apiUrl);
+                    console.log('response', response);
+                    const data = await response.json();
+                    console.log('data', data);
+                    responseElement.textContent = JSON.stringify(data, null, 4);
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    responseElement.textContent = 'Error fetching data';
+                }
+            }
+
+            fetchData();
+        </script>
+    </body>
+</html>
