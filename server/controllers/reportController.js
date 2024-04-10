@@ -7,10 +7,6 @@ class ReportController {
         const endDate = req.query.endDate;
         const currencyCodes = req.query.currencyCode;
 
-        // console.log('startDate', startDate);
-        // console.log('endDate', endDate);
-        // console.log('currencyCodes', currencyCodes);
-
         function getReportData(datePeriod, currencyCode) {
             let min = 'Нет значений для данной валюты';
             let avg = 'Нет значений для данной валюты';
@@ -49,7 +45,6 @@ class ReportController {
             const result = {};
 
             for (const currencyCode of currencyCodes) {
-                console.log('currencyCode', currencyCode);
                 result[currencyCode] = getReportData(dateRange, currencyCode);
             }
 
@@ -57,33 +52,10 @@ class ReportController {
         }
 
         const finalReport = getReport(startDate, endDate);
-        console.log('finalReport', finalReport);
-        // res.json(finalReport);
 
-        // return res(finalRepor);
-        // res.send(`Результат сложения`);
-        // res.send(finalReport);
+        console.log('report: ', finalReport);
         res.json(finalReport);
-
-        // return res.json(finalReport);
     }
-
-    // async registration(req, res, next) {
-    //     console.log("запросик");
-    //     console.log(req.body);
-    //     console.log(req);
-    //     let { name } = req.body;
-    //     const user = { id: 1000, name };
-    //     return res.json({ user });
-    // }
-    // async info(req, res, next) {
-    //     console.log(req.body);
-    //     let { name } = req.body;
-
-    //     const user = { id: 1000, name };
-
-    //     return res.json({ user });
-    // }
 }
 
 module.exports = new ReportController();
